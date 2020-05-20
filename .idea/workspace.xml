@@ -36,6 +36,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="309" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -135,10 +142,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1589982905927" />
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1589994453001">
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1589994978510">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589994453001" />
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589994978510" />
     <state width="1564" height="269" key="GridCell.Tab.0.bottom" timestamp="1589994770770">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -159,10 +166,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="431" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1589983427203" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589994813447">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589995047550">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589994813447" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589995047550" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_comp@LinkedListCompositionTest.rcov" NAME="LinkedListCompositionTest Coverage Results" MODIFIED="1589994766481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_comp" />
