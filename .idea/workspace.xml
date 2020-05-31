@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19bde85-951f-4455-a3b4-518b339b03a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/linked_list_comp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_comp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_comp.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_comp.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="309" />
+    <option name="myElementSize" value="359" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -131,7 +128,7 @@
       <workItem from="1589989760272" duration="613000" />
       <workItem from="1589992784995" duration="3143000" />
       <workItem from="1590783902076" duration="546000" />
-      <workItem from="1590954583318" duration="1635000" />
+      <workItem from="1590954583318" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1589994453385</created>
@@ -161,10 +158,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590955581998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Development Complete&#10;&#10;Added node_comp, node_error, diagram_factory_comp, and diagram_comp development dependencies.">
+      <created>1590956402888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590956402888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem:{No Subsystem} Component: Composition Sprints: 11 State: {Development}" />
+        <option name="defaultSearch" value="project: LinkedList Subsystem:{No Subsystem} Component: Composition Sprints: 11 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -190,17 +194,18 @@
     <MESSAGE value="Development Complete&#10;&#10;'require'd linked_list_int and linked_list_impl. Added test coverage." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Deleted linked_list_iterator dependency. Updated linked_list_int and linked_list_impl dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Deleted linked_list_iterator dependency. Updated linked_list_int and linked_list_impl dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Added node_comp, node_error, diagram_factory_comp, and diagram_comp development dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added node_comp, node_error, diagram_factory_comp, and diagram_comp development dependencies." />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="175" key="#Servers" timestamp="1589982905927">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1589982905927" />
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1590955580711">
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1590956402364">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590955580711" />
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590956402364" />
     <state width="1541" height="269" key="GridCell.Tab.0.bottom" timestamp="1590956217908">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -229,10 +234,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1589999671717" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590956263733">
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590956488551">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590956263733" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590956488551" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_comp@LinkedListCompositionTest.rcov" NAME="LinkedListCompositionTest Coverage Results" MODIFIED="1590956207100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_comp" />
