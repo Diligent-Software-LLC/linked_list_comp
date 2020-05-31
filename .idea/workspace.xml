@@ -26,10 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19bde85-951f-4455-a3b4-518b339b03a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/linked_list_comp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_comp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_comp.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_comp.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_comp_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_comp_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/linked_list_comp/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_comp/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_comp.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_comp.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cAsiedy1i90dz5PY2vGxbIj8P9" />
@@ -63,6 +69,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mkdir artifacts" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="LinkedListCompositionTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -113,7 +129,9 @@
       <updated>1589982860688</updated>
       <workItem from="1589982862201" duration="676000" />
       <workItem from="1589989760272" duration="613000" />
-      <workItem from="1589992784995" duration="1512000" />
+      <workItem from="1589992784995" duration="3143000" />
+      <workItem from="1590783902076" duration="546000" />
+      <workItem from="1590954583318" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1589994453385</created>
@@ -122,10 +140,24 @@
       <option name="project" value="LOCAL" />
       <updated>1589994453385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Development Complete&#10;&#10;'require'd linked_list_int and linked_list_impl. Added test coverage.">
+      <created>1589994978759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589994978759</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md.">
+      <created>1589995205055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589995205055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem:{No Subsystem} Component: Composition Sprints: 9 State: {Development}" />
+        <option name="defaultSearch" value="project: LinkedList Subsystem:{No Subsystem} Component: Composition Sprints: 11 State: {Setup}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -133,43 +165,66 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md." />
+    <MESSAGE value="Development Complete&#10;&#10;'require'd linked_list_int and linked_list_impl. Added test coverage." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="175" key="#Servers" timestamp="1589982905927">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1589982905927" />
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1589994978510">
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2" timestamp="1589995204743">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589994978510" />
-    <state width="1564" height="269" key="GridCell.Tab.0.bottom" timestamp="1589994770770">
+    <state x="54" y="48" width="1562" height="908" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589995204743" />
+    <state width="1564" height="269" key="GridCell.Tab.0.bottom" timestamp="1589999783391">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589994770770" />
-    <state width="1564" height="269" key="GridCell.Tab.0.center" timestamp="1589994770769">
+    <state width="1564" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589999783391" />
+    <state width="1564" height="269" key="GridCell.Tab.0.center" timestamp="1589999783390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589994770769" />
-    <state width="1564" height="269" key="GridCell.Tab.0.left" timestamp="1589994770768">
+    <state width="1564" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589999783390" />
+    <state width="1564" height="269" key="GridCell.Tab.0.left" timestamp="1589999783389">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589994770768" />
-    <state width="1564" height="269" key="GridCell.Tab.0.right" timestamp="1589994770769">
+    <state width="1564" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589999783389" />
+    <state width="1564" height="269" key="GridCell.Tab.0.right" timestamp="1589999783390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1564" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589994770769" />
+    <state width="1564" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589999783390" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589999604959">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589999604959" />
     <state x="431" y="235" width="816" height="550" key="find.popup" timestamp="1589983427203">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="431" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1589983427203" />
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589995047550">
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup" timestamp="1589999671717">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589995047550" />
+    <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1589999671717" />
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590955381131">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="504" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590955381131" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_comp@LinkedListCompositionTest.rcov" NAME="LinkedListCompositionTest Coverage Results" MODIFIED="1589994766481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_comp" />
